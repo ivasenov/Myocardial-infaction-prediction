@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from statsmodels.graphics.mosaicplot import mosaic
 
-data = pd.read_csv("./data/mixed_demographics.csv")
+data = pd.read_csv("../data/training_data/mixed_demographics.csv")
 
 data.info()
 data.describe()
