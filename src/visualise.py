@@ -7,13 +7,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-file_path = "../data/training_data/mixed_samples/"
-
-def load_file(file_name):
-    loaded_file = np.load(file_path + file_name)
-    print("File " + file_name + " was loaded successfully")
-    return loaded_file
-
 
 def plot_single_frame(frame_id, data):
 
