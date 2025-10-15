@@ -1,7 +1,9 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import statsmodels.api as sm
 from statsmodels.graphics.mosaicplot import mosaic
+
 
 data = pd.read_csv("./data/training_data/mixed_demographics.csv")
 
