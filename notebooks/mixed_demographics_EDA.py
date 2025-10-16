@@ -68,10 +68,16 @@ sns.boxplot(y = "systolic_BP", data = data)
 
 sns.boxplot(x = "MI", y = "systolic_BP", data = data)
 
-#Results: Systolic_BP is not telling on whether someone
-#has an MI or not. No differences
+#Results: Systolic_BP is  telling on whether someone
+#has an MI or not.
 
 plt.show()
+
+
+#Scientific note: Systolic is apparenlty good at indicating heart issues
+#measures how hard the heart pumps blood into the arteries
+#Diastolic is the pressure on the arteries when the heart rests between beats
+
 
 
 mosaic(data, ["sex", "MI"])
